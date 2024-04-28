@@ -176,7 +176,7 @@ width: 4px;height: 4px;}
 
 
 .tags{gap: 6px;width: 100%;display: flex;row-gap:10px ;color: white;flex-direction: row;flex-wrap: wrap;justify-content: start;align-items: start;}
-.tags .tag{cursor: pointer;border-radius: 20px;box-shadow: inset 2px 2px 4px #ffffff50;padding: 0 20px;height: 35px;font-size: 13px;font-weight: 700;background: var(--grad);overflow: hidden;display: flex;flex-direction: column;justify-content: center;align-items: center;position: relative;font-family: 'IBM Plex Mono', monospace;}
+.tags .tag{cursor: pointer;border-radius: 14px;box-shadow: inset 2px 2px 4px #ffffff50;padding: 0 20px;height: 35px;font-size: 13px;font-weight: 700;background: var(--grad);overflow: hidden;display: flex;flex-direction: column;justify-content: center;align-items: center;position: relative;font-family: 'IBM Plex Mono', monospace;}
 .tags .tag:hover{background: var(--grad90);}
 .tags .tag span{transition:400ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;line-height: 0;font-weight: inherit;text-transform: uppercase;}
 .tags .tag span:last-child{position: absolute;bottom: -30px;}
