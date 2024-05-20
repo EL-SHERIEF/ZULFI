@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="./favicon.png" type="image/png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style maher.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Zulfi | About Us</title>
 </head>
 <body>
@@ -148,8 +148,8 @@
             
               </div>
               <div class="buttons">
-                  <button class="prev"><img src="./img/icons/right-chevron.svg"></button>
-                  <button class="next"><img src="./img/icons/right-chevron.svg"></button>
+                  <button id="prev"></button>
+                  <button id="next"></button>
               </div>
               <ul class="dots">
                   <li class="active"></li>
@@ -350,8 +350,8 @@
     // SLIDER ANIMATION
     let slider = document.querySelector('.section15 .list');
     let items = document.querySelectorAll('.section15 .list .item');
-    let next = document.querySelector('.next');
-    let prev = document.querySelector('.prev');
+    let next = document.getElementById('next');
+    let prev = document.getElementById('prev');
     let dots = document.querySelectorAll('.section15 .dots li');
     
     let lengthItems = items.length - 1;
